@@ -1,0 +1,35 @@
+{
+  "name": "cirelramos/query-log",
+  "description": "this package has utils to send console query generate in your project laravel",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "log",
+    "database"
+  ],
+  "autoload": {
+    "psr-4": {
+      "CirelRamos\\QueryLog\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Cirel Ramos",
+      "email": "cirelramos@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/database": "^7.20|^8.19|^9.0",
+    "illuminate/http": "^7.20|^8.19|^9.0",
+    "illuminate/contracts": "^7.20|^8.19|^9.0",
+    "illuminate/config": "^7.20|^8.19|^9.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "QueryLog\\Providers\\ServiceProvider"
+      ]
+    }
+  }
+}
